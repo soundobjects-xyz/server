@@ -29,6 +29,7 @@ Install Rbenv for Ruby version management
 Install the Ruby langage using Rbenv, and set default version
 
 ``` rbenv install 3.1.3 ```
+
 ``` rbenv global 3.1.3 ```
 
 Install Rails web framework
@@ -56,7 +57,9 @@ Install PostgreSQL
 * Create the local development / test databases, and seed the database with default data
 
 ``` rails db:create ```
+
 ``` rails db:migrate ```
+
 ``` rails db:seed ```
 
 * Start the rails server in a terminal
