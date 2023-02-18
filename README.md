@@ -1,24 +1,8 @@
-# README
+# Sound Objects Platform Server
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo contains the Sound Objects Platform Server.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Website CMS for soundobjects.xyz
+* Microservices for 
 
 * ...
