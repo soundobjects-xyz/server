@@ -28,15 +28,18 @@ Install Rbenv for Ruby version management
 
 Install the Ruby langage using Rbenv, and set default version
 
-``` rbenv install 3.1.3
-    rbenv global 3.1.3
-```
+``` rbenv install 3.1.3 ```
+``` rbenv global 3.1.3 ```
 
 Install Rails web framework
 
 ``` gem install rails -v '7.0.4.2' ```
 
-## Install and Run Server Application
+Install PostgreSQL
+
+[Install PostgreSQL on MacOS](https://postgresapp.com/downloads.html)
+
+## Download and Run Server Application
 
 * From your terminal, navigate to the root directory for your development projects
 
@@ -52,10 +55,9 @@ Install Rails web framework
 
 * Create the local development / test databases, and seed the database with default data
 
-``` rails db:create
-    rails db:migrate
-    rails db:seed
-```
+``` rails db:create ```
+``` rails db:migrate ```
+``` rails db:seed ```
 
 * Start the rails server in a terminal
 
